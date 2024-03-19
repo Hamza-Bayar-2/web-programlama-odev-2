@@ -36,7 +36,8 @@
   padding: 0 2px;
 }
 
-.input-group input:focus ~ i{
+.input-group input:focus ~ i,
+.input-group input:valid ~ i{
   color: #4946ED;
 }
 
