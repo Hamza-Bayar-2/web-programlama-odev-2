@@ -21,6 +21,12 @@
   background: transparent;
 }
 
+.input-group i {
+  position: absolute;
+  right: 7px;
+  top: 10px;
+}
+
 .input-group input:focus ~ .input-label,
 .input-group input:valid ~ .input-label{
   top: -12px;
@@ -28,7 +34,10 @@
   color: #4946ED;
   background-color: white;
   padding: 0 2px;
+}
 
+.input-group input:focus ~ i{
+  color: #4946ED;
 }
 
 .input-group input:focus,
