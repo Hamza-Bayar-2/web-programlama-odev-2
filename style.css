@@ -21,6 +21,12 @@
   background: transparent;
 }
 
+/*type number olannin ok stilini kaldırmak içindir*/
+.input-group input[type="number"]::-webkit-inner-spin-button, 
+.input-group input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
 .input-group i {
   position: absolute;
   right: 7px;
