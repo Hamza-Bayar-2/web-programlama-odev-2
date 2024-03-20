@@ -31,7 +31,7 @@ $().ready(function () {
 				required: 
 					" Please enter an email",
 				email: 
-					" Please a valid email"
+					" Please enter a valid email"
 			},
 			name: 
 				" Please enter your name", 
@@ -66,3 +66,10 @@ $().ready(function () {
 	
 });
 
+// Girilen değeri 10 karaktere kadar kırpar"
+
+document.getElementById("phone_number").addEventListener("input", function() {
+	if (this.value.length > 10) {
+			this.value = this.value.slice(0, 10); 
+	}
+});

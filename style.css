@@ -33,6 +33,17 @@
   top: 10px;
 }
 
+.input-group .plus90 {
+  position: absolute;
+  display: none;
+  top: 6px;
+  left: 7px;
+}
+
+.input-group #phone_number {
+  padding-left: 35px;
+}
+
 .input-group input:focus ~ .input-label,
 .input-group input:valid ~ .input-label{
   top: -12px;
@@ -45,6 +56,11 @@
 .input-group input:focus ~ i,
 .input-group input:valid ~ i{
   color: #4946ED;
+}
+
+.input-group input:focus ~ .plus90,
+.input-group input:valid ~ .plus90{
+  display: inline;
 }
 
 .input-group input:focus,
